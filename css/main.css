@@ -1,0 +1,147 @@
+/*** GLOBAL ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*** MAIN WIDGET ***/
+
+.content {
+    max-width: 1440px;
+    min-width: 375px;
+    width: 70vw;
+    height: auto;
+    display: flex;
+    border: 1px solid lightgray;
+    box-shadow: 13px 12px 17px -3px #CFCFCF;
+    align-self: center;
+}
+
+/*** INFO ***/
+
+.info {
+    background-color: #fff;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5rem 2.5rem;
+    flex-basis: 60%; 
+}
+
+.info__content {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.info__logo {
+    margin-bottom: 4rem;
+}
+.info__logo img {
+    width: 7rem;
+}
+
+.info__title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .8rem;
+    margin-bottom: 0;
+}
+
+.info__title span{
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: inherit;
+    color: rgb(178,156,158);
+}
+
+.info__paragraph {
+    color:  rgb(178,156,158);
+    margin-bottom: 2rem;
+}
+
+/*** FORM ***/
+
+.form {
+    position: relative;
+}
+
+.form__input {
+    width: 100%;
+    height: 2.8rem;
+    border-radius: 30px;
+    border: 1px solid  rgb(178,156,158);
+    padding-left: 1rem;
+    background: transparent;
+}
+
+.form__button {
+    position: absolute;
+    right: 0;
+    width: 5rem;
+    height: 2.8rem;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    box-shadow: 13px 6px 23px 2px #DEDEDE;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.form__icon__error {
+    position: absolute;
+    right: 85px;
+    bottom: 30px;
+    display: none;
+}
+
+.form__error {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    color:  hsl(0, 93%, 68%);
+    display: none;
+}
+
+.form__error p {
+    margin-top: 0.5rem;   
+}
+
+.active {
+    display: block;
+}
+
+/*** IMAGE ***/
+
+.image {
+    flex-basis: 40%;
+}
+
+.image img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*** FOOTER ***/
+
+.attribution {
+    width: 70vw;
+    align-self: center;
+    text-align: center;
+}
