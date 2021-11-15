@@ -14,8 +14,8 @@ Your challenge is to build out this coming soon page and get it looking as close
 
 ### Links
 
-- Solution CODE: [https://github.com/lougc/time-tracking-dashboard]
-- Live Site URL: [https://lougc.github.io/time-tracking-dashboard/]
+- Solution CODE: [https://github.com/lougc/base-apparel-coming-soon-master]
+- Live Site URL: [https://lougc.github.io/base-apparel-coming-soon-master/]
 
 ## My process
 
